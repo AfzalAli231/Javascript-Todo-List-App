@@ -6,6 +6,7 @@
     <title>Todo List</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./download.ico" type="image/x-icon">
   <style>
   </style>
       <script 
@@ -41,7 +42,31 @@
       </div>
     </div>
     <script src="app.js"></script>
-  
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyCCLWTLdbwI_MJ1kmdSigrMbSQFHN3c1h0",
+    authDomain: "todo-list-app-d1d73.firebaseapp.com",
+    projectId: "todo-list-app-d1d73",
+    storageBucket: "todo-list-app-d1d73.appspot.com",
+    messagingSenderId: "185239771145",
+    appId: "1:185239771145:web:3ba3b2b8ad5371601f40d8",
+    measurementId: "G-B5YZ5NZBWK"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+
+</script>
 
 </body>
 </html>
